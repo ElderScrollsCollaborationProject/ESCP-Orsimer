@@ -73,4 +73,37 @@
         </definitions>
     </ESCP.Core.CharacterDef>
 
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Larak</defName>
+        <pawnKind>ESCP_Pawnkind_Orsimer_Captain</pawnKind>
+        <faction>ESCP_Faction_Orsinium</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Orsimer</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Larak</firstName>
+                <lastName></lastName>
+                <nickname>Chief of Mor Khazgur</nickname>
+                <gender>Male</gender>
+                <age>55</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 35, 30)</hairColor>
+                <hairDef>Mohawk</hairDef>
+                <headTypeDef>ESCP_HeadMerWideFace_Male_Average_Wide</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Tough</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
 </Defs>
