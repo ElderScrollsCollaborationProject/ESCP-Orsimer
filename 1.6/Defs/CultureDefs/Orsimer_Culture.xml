@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CultureDef>
+        <defName>ESCP_Culture_Orsimer</defName>
+        <label>Orsimer</label>
+        <description>The culture of the strongholds, ruled by the Code of Malacath. Strength decides, blood pays for blood, a chief's word is law until someone proves otherwise, and Orsinium always gets built again.</description>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <pawnNameMaker>ESCP_Orsimer_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>ESCP_Orsimer_Namer_Female</pawnNameMakerFemale>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <styleItemTags>
+            <li>
+                <tag>BeardTribal</tag>
+                <baseWeight>3</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoBeard</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Urban</tag>
+                <baseWeight>3</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoTattoo</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+        <thingStyleCategories MayRequire="Ludeon.RimWorld.Ideology">
+            <li>
+                <category>Rustic</category>
+                <priority>2</priority>
+            </li>
+        </thingStyleCategories>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerIdeo_Orsimer</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerDeity_Orsimer</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_DeityTypeMaker_Orsimer</deityTypeMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerFestival_Orsimer</festivalNameMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_LeaderTitleMaker_Orsimer</leaderTitleMaker>
+    </CultureDef>
+
+    <StyleCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Style_Orsimer</defName>
+        <label>Orsimer</label>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
+        <thingDefStyles />
+    </StyleCategoryDef>
+
+    <RulePackDef>
+        <defName>ESCP_Orsimer_Namer_Male</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Orsimer_Names_Male] gro-[ESCP_Orsimer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Orsimer_Names_Male->Names/ESCP_Orsimer_Names_Male</li>
+                <li>ESCP_Orsimer_Names_Last->Names/ESCP_Orsimer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>ESCP_Orsimer_Namer_Female</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Orsimer_Names_Female] gra-[ESCP_Orsimer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Orsimer_Names_Female->Names/ESCP_Orsimer_Names_Female</li>
+                <li>ESCP_Orsimer_Names_Last->Names/ESCP_Orsimer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_LeaderTitleMaker_Orsimer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->King of Orsinium</li>
+                <li>r_leaderTitle->High Chieftain</li>
+                <li>r_leaderTitle->Warlord</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerIdeo_Orsimer</defName>
+        <include>
+            <li>GlobalUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>hyphenPrefix->Malacath</li>
+                <li>hyphenPrefix->Trinimac</li>
+                <li>hyphenPrefix->Forge</li>
+                <li>hyphenPrefix->Stone</li>
+                <li>r_ideoName->The Code of Malacath</li>
+                <li>r_ideoName->The Way of Mauloch</li>
+                <li>r_ideoName->Trinimac's Memory</li>
+                <li>r_ideoName->The Blood Price</li>
+                <li>r_ideoAdjective->Orcish</li>
+                <li>r_ideoAdjective->Malacathi</li>
+                <li>r_memberName->Code-keeper</li>
+                <li>r_memberName->Bloodkin</li>
+                <li>r_memberName->Sworn</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerDeity_Orsimer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityName->Malacath</li>
+                <li>r_deityName->Mauloch</li>
+                <li>r_deityName->Trinimac</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_DeityTypeMaker_Orsimer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityType->keeper of the sworn oath</li>
+                <li>r_deityType->god of the curse</li>
+                <li>r_deityType->the devoured god</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerFestival_Orsimer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_ritualName->[festivalName]</li>
+                <li>festivalName->The Rebuilding</li>
+                <li>festivalName->Blood Price Day</li>
+                <li>festivalName->Malacath's Reckoning</li>
+                <li>festivalName->First Forge</li>
+                <li>festivalName->Night of the Devoured</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

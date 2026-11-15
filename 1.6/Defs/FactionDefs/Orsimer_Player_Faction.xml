@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>ESCP_Faction_Orsimer_Player</defName>
+        <label>Outcast Clan</label>
+        <description>A small clan that has struck out on its own, by choice or after losing an argument. They'll need a wall, a forge and somewhere to bury the people who come to complain.</description>
+        <isPlayer>true</isPlayer>
+        <techLevel>Medieval</techLevel>
+        <basicMemberKind>ESCP_Pawnkind_Orsimer_Settler</basicMemberKind>
+        <pawnSingular>Orsimer</pawnSingular>
+        <pawnsPlural>Orsimer</pawnsPlural>
+        <leaderTitle>Chief</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/ESCP_OrsimerSettlementAlt</factionIconPath>
+        <colorSpectrum>
+            <li>(0.35, 0.55, 0.25)</li>
+        </colorSpectrum>
+        <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+            <xenotypeChances>
+                <ESCP_Xenotype_Orsimer>1</ESCP_Xenotype_Orsimer>
+            </xenotypeChances>
+        </xenotypeSet>
+        <allowedCultures>
+            <li>ESCP_Culture_Orsimer</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                    <li>ESCP_Backstory_Orsimer_Citizen</li>
+                    <li>ESCP_Backstory_Orsimer_Military</li>
+                    <li>ESCP_Backstory_Orsimer_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+    </FactionDef>
+
+</Defs>

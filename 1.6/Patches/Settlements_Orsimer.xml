@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/FactionDef[defName="ESCP_Faction_Orsinium"]</xpath>
+        <value>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Orsinium</li>
+                    <li>Morkul Stronghold</li>
+                    <li>Fharun Stronghold</li>
+                    <li>Stonetooth Fortress</li>
+                    <li>Murtag Stronghold</li>
+                    <li>Dushnikh Yal</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>BorealForest</li>
+                    <li>Tundra</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/FactionDef[defName="ESCP_Faction_Orsimer_Raiders"]</xpath>
+        <value>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Malak's Maw</li>
+                    <li>Cradlecrush</li>
+                    <li>Bloodtoil Valley</li>
+                    <li>Jathsogur</li>
+                    <li>Reman's Bluff</li>
+                    <li>Dra'bul</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>Tundra</li>
+                    <li>BorealForest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

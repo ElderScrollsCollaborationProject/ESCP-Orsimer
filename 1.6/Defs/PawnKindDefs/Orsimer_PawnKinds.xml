@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_OrsimerkindBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionDef>ESCP_Faction_Orsinium</defaultFactionDef>
+        <xenotypeSet>
+            <xenotypeChances>
+                <ESCP_Xenotype_Orsimer MayRequire="Ludeon.RimWorld.Biotech">1</ESCP_Xenotype_Orsimer>
+            </xenotypeChances>
+        </xenotypeSet>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <maxGenerationAge>65</maxGenerationAge>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <invNutrition>2.7</invNutrition>
+        <invFoodDef>Pemmican</invFoodDef>
+        <disallowedTraits>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_OrsimerkindBase">
+        <defName>ESCP_Pawnkind_Orsimer_Citizen</defName>
+        <label>Orsimer citizen</label>
+        <combatPower>35</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Forgeborn>0</ESCP_Trait_Orsimer_Forgeborn>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_OrsimerkindBase">
+        <defName>ESCP_Pawnkind_Orsimer_Merchant</defName>
+        <label>Orsimer merchant</label>
+        <combatPower>45</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~800</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Cape</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Forgeborn>0</ESCP_Trait_Orsimer_Forgeborn>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_OrsimerkindBase">
+        <defName>ESCP_Pawnkind_Orsimer_Noble</defName>
+        <label>Orsimer chief's kin</label>
+        <combatPower>60</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>600~1200</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Robe</li>
+            <li>Cape</li>
+            <li>RoyalTier5</li>
+            <li>RoyalRobe</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Citizen</li>
+                    <li>ESCP_Backstory_Orsimer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Forgeborn>0</ESCP_Trait_Orsimer_Forgeborn>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_OrsimerkindBase">
+        <defName>ESCP_Pawnkind_Orsimer_Trader</defName>
+        <label>Orsimer trader</label>
+        <trader>true</trader>
+        <combatPower>40</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~800</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Cape</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Forgeborn>0</ESCP_Trait_Orsimer_Forgeborn>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_OrsimerkindBase">
+        <defName>ESCP_Pawnkind_Orsimer_Quartermaster</defName>
+        <label>Orsimer quartermaster</label>
+        <trader>true</trader>
+        <combatPower>45</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>500~1000</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Forgeborn>0</ESCP_Trait_Orsimer_Forgeborn>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_OrsimerkindBase">
+        <defName>ESCP_Pawnkind_Orsimer_Melee</defName>
+        <label>Orsimer warrior</label>
+        <combatPower>100</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Bloodied>0</ESCP_Trait_Orsimer_Bloodied>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_OrsimerkindBase">
+        <defName>ESCP_Pawnkind_Orsimer_Ranged</defName>
+        <label>Orsimer hunter</label>
+        <combatPower>80</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>NeolithicRangedBasic</li>
+            <li>NeolithicRangedDecent</li>
+            <li>NeolithicRangedHeavy</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Bloodied>0</ESCP_Trait_Orsimer_Bloodied>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_OrsimerkindBase">
+        <defName>ESCP_Pawnkind_Orsimer_Mage</defName>
+        <label>Orsimer wise one</label>
+        <combatPower>110</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~900</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Robe</li>
+            <li>BestowerHood</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Codekeeper>0</ESCP_Trait_Orsimer_Codekeeper>
+        </forcedTraits>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_Firebolt</li>
+                    <li>ESCP_Spell_Ward</li>
+                </spells>
+                <randomSpells>
+                    <li>ESCP_Spell_IceSpike</li>
+                    <li>ESCP_Spell_Fireball</li>
+                    <li>ESCP_Spell_Paralyze</li>
+                    <li>ESCP_Spell_Healing</li>
+                </randomSpells>
+                <randomCount>1~2</randomCount>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_OrsimerkindBase">
+        <defName>ESCP_Pawnkind_Orsimer_Captain</defName>
+        <label>Orsimer warrior captain</label>
+        <combatPower>137</combatPower>
+        <itemQuality>Good</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>700~1300</apparelMoney>
+        <weaponMoney>500~900</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Bloodied>0</ESCP_Trait_Orsimer_Bloodied>
+        </forcedTraits>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_Ward</li>
+                </spells>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_OrsimerkindBase">
+        <defName>ESCP_Pawnkind_Orsimer_Elite</defName>
+        <label>Orsimer berserker</label>
+        <combatPower>175</combatPower>
+        <itemQuality>Good</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>900~1800</apparelMoney>
+        <weaponMoney>600~1200</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Military</li>
+                    <li>ESCP_Backstory_Orsimer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Bloodied>0</ESCP_Trait_Orsimer_Bloodied>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_OrsimerkindBase">
+        <defName>ESCP_Pawnkind_Orsimer_Settler</defName>
+        <label>Orsimer settler</label>
+        <defaultFactionDef>ESCP_Faction_Orsimer_Player</defaultFactionDef>
+        <combatPower>30</combatPower>
+        <isFighter>false</isFighter>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelMoney>350~600</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>0~0</initialWillRange>
+        <initialResistanceRange>13~21</initialResistanceRange>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Forgeborn>0</ESCP_Trait_Orsimer_Forgeborn>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

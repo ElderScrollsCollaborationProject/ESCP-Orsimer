@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef ParentName="ESCP_BaseXenotype_MerWideFace">
+        <defName>ESCP_Xenotype_Orsimer</defName>
+        <label>Orsimer</label>
+        <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+        <description>The Orcs, cursed children of Trinimac who became the people of Malacath when Boethiah devoured their god. Other races call them beasts and hire them anyway. They are strong, hard to kill and the finest armorers in Tamriel, and they have rebuilt Orsinium every time someone burned it down.</description>
+        <descriptionShort>Tusked pariah folk of Wrothgar: strong, stubborn smiths and berserkers.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Orsimer_Malacath</li>
+            <li>ESCP_Gene_Orsimer_Smith</li>
+            <li>ESCP_Gene_Orsimer_Pariah</li>
+            <li>Skin_Green</li>
+            <li>Robust</li>
+            <li>ESCP_Gene_Orsimer_Tusks</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

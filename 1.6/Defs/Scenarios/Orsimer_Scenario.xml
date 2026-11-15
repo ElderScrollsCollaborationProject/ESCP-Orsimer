@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ScenarioDef>
+        <defName>ESCP_Scenario_Orsimer</defName>
+        <label>Outcast Clan</label>
+        <description>A small clan that has struck out on its own, by choice or after losing an argument. They'll need a wall, a forge and somewhere to bury the people who come to complain.</description>
+        <scenario>
+            <summary>A small clan that has struck out on its own, by choice or after losing an argument. They'll need a wall, a forge and somewhere to bury the people who come to complain.</summary>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>ESCP_Faction_Orsimer_Player</factionDef>
+            </playerFaction>
+            <surfaceLayer>
+                <def>SurfaceLayerFixed</def>
+                <tag>Surface</tag>
+                <layer>Surface</layer>
+                <settingsDef>Surface</settingsDef>
+                <hide>true</hide>
+                <connections>
+                    <Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+                        <zoomMode>ZoomOut</zoomMode>
+                    </Orbit>
+                </connections>
+            </surfaceLayer>
+            <parts>
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnCount>4</pawnCount>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                </li>
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>Standing</method>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Silver</thingDef>
+                    <count>400</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Pemmican</thingDef>
+                    <count>200</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MedicineHerbal</thingDef>
+                    <count>20</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>WoodLog</thingDef>
+                    <count>300</count>
+                </li>
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+</Defs>

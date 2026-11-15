@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_Orsimer_UniqueCharacterBase" ParentName="ESCP_OrsimerkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <maxGenerationAge>300</maxGenerationAge>
+        <initialWillRange>5~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Orsimer_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Orsimer_King</defName>
+        <label>King of Orsinium</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>280</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Military</li>
+                    <li>ESCP_Backstory_Orsimer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Codekeeper>0</ESCP_Trait_Orsimer_Codekeeper>
+            <ESCP_Trait_Orsimer_Bloodied>0</ESCP_Trait_Orsimer_Bloodied>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Orsimer_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Orsimer_Warlord</defName>
+        <label>Warlord</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>250</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Orsimer_Military</li>
+                    <li>ESCP_Backstory_Orsimer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Orsimer_Codekeeper>0</ESCP_Trait_Orsimer_Codekeeper>
+            <ESCP_Trait_Orsimer_Bloodied>0</ESCP_Trait_Orsimer_Bloodied>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_Orsinium</defName>
+        <label>Orsinium ranks</label>
+        <rootTier>ESCP_Rank_Orsinium_BloodKin</rootTier>
+        <owningFaction>ESCP_Faction_Orsinium</owningFaction>
+        <collectiveNoun>Orsinium</collectiveNoun>
+        <drillLabel>Wrestling Bout</drillLabel>
+        <drillDesc>Train with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Learn the Code of Malacath</studyLabel>
+        <studyDesc>Study with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Check Their Steel</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Send to Work the Bellows...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>Blood and Iron!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>To the Chief</fallInLabel>
+        <fallInDesc>Order {0} to gather behind you, up to four deep. They hold position until released.</fallInDesc>
+        <dismissLabel>Back to the Longhouse</dismissLabel>
+        <dismissDesc>Release {0} so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Orsinium_BloodKin</defName>
+        <label>blood-kin</label>
+        <description>Has been accepted into the stronghold's blood.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_Orsinium_Warrior</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Orsinium_Warrior</defName>
+        <label>warrior</label>
+        <description>Fights for the stronghold and its chief.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Melee>5</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Melee>400</Melee>
+            <Crafting>200</Crafting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Orsinium_RaidLeader</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Orsinium_RaidLeader</defName>
+        <label>raid leader</label>
+        <description>Leads warriors against the stronghold's enemies.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Melee>8</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Melee>500</Melee>
+            <Crafting>250</Crafting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Orsinium_ForgeSworn</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Orsinium_ForgeSworn</defName>
+        <label>forge-sworn</label>
+        <description>Swears by Malacath and shapes Orcish steel.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Melee>11</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Melee>600</Melee>
+            <Crafting>300</Crafting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Orsinium_ChieftainsChampion</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Orsinium_ChieftainsChampion</defName>
+        <label>chieftain's champion</label>
+        <description>Fights for the chief in matters of honor and blood.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Melee>14</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Melee>700</Melee>
+            <Crafting>350</Crafting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Combat</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>

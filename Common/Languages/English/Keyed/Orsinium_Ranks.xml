@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_Orsinium>Blood-elder:</ESCP_Rank_Mentor_Orsinium>
+    <ESCP_Rank_Promote_Orsinium>Earn Your Place</ESCP_Rank_Promote_Orsinium>
+    <ESCP_Rank_Promoted_Text_Orsinium>The chief has decided. {0} is now {1}, and no one argues.</ESCP_Rank_Promoted_Text_Orsinium>
+    <ESCP_Rank_Rally_Title_Orsinium>{0} calls on Malacath</ESCP_Rank_Rally_Title_Orsinium>
+    <ESCP_Rank_Rally_Text_Orsinium>{0} roars Malacath's name, and every one of {1} on the field answers with blood and iron.</ESCP_Rank_Rally_Text_Orsinium>
+    <ESCP_Rank_InspectionComplete_Commended_Orsinium>{0} checks {1}'s steel. Orcish work, and it shows.</ESCP_Rank_InspectionComplete_Commended_Orsinium>
+    <ESCP_Rank_InspectionComplete_Reprimanded_Orsinium>{0} checks {1}'s steel and asks whether a Breton made it.</ESCP_Rank_InspectionComplete_Reprimanded_Orsinium>
+    <ESCP_Rank_PunishmentAssigned_Orsinium>{0} sends {1} to work the forge bellows.</ESCP_Rank_PunishmentAssigned_Orsinium>
+
+</LanguageData>

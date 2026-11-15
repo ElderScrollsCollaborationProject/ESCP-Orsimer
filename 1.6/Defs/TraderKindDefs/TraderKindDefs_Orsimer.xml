@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraderKindDef>
+        <defName>ESCP_Caravan_Orsimer_Trader</defName>
+        <label>Orsimer trader</label>
+        <modExtensions>
+            <li Class="ESCP.Currencies.CurrencyReplacement">
+                <currency>ESCP_Currency_Septims</currency>
+            </li>
+        </modExtensions>
+
+        <stockGenerators>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>200~500</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>300~700</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Pemmican</thingDef>
+                <countRange>60~120</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Leather_Plain</thingDef>
+                <countRange>40~100</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineHerbal</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>WoodLog</thingDef>
+                <countRange>100~200</countRange>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Art</tag>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>ExoticMisc</tag>
+            </li>
+
+        </stockGenerators>
+
+        <tradeCurrency>Silver</tradeCurrency>
+
+    </TraderKindDef>
+
+</Defs>

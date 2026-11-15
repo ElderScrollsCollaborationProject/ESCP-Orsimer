@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Orsimer_Codekeeper</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>keeper of the Code</label>
+                <description>Holds to the Code of Malacath in every dealing: a debt is a debt, a wrong gets answered, and nobody gets a second warning.</description>
+                <statOffsets>
+                    <PainShockThreshold>0.05</PainShockThreshold>
+                </statOffsets>
+                <skillGains>
+                    <Intellectual>2</Intellectual>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Orsimer_Forgeborn</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>forge-born</label>
+                <description>Raised beside the fire and considers everyone else's metalwork a personal insult.</description>
+                <statOffsets>
+                    <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
+                </statOffsets>
+                <skillGains>
+                    <Social>2</Social>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Orsimer_Bloodied</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>blood-sworn</label>
+                <description>Has fought enough duels to stop counting. They do not back away, including when they should.</description>
+                <statOffsets>
+                    <MeleeHitChance>2</MeleeHitChance>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

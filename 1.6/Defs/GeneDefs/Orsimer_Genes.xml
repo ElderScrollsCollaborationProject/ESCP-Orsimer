@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Orsimer_Malacath</defName>
+        <label>blood of Malacath</label>
+        <description>Malacath keeps the wronged and the stubborn. Carriers hit harder than their size accounts for, and can set the pain aside when it gets serious.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statOffsets>
+            <MeleeHitChance>2</MeleeHitChance>
+            <PainShockThreshold>0.1</PainShockThreshold>
+        </statOffsets>
+        <abilities>
+            <li>ESCP_Ability_Orsimer_Berserk</li>
+        </abilities>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Orsimer_Smith</defName>
+        <label>Orcish hands</label>
+        <description>Generations at the forge show. Carriers work quickly at anything that needs strength and patience, and Orcish steel is the proof.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <GeneralLaborSpeed>0.15</GeneralLaborSpeed>
+            <MiningSpeed>0.1</MiningSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Orsimer_Pariah</defName>
+        <label>pariah folk</label>
+        <description>Being unwelcome everywhere has its effect. Others don't warm to the carrier, and book learning comes slowly.</description>
+        <iconPath>UI/Icons/Genes/Gene_PsychicBonding</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>1</biostatMet>
+        <statOffsets>
+            <SocialImpact>-0.2</SocialImpact>
+            <GlobalLearningFactor>-0.1</GlobalLearningFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Orsimer_Tusks</defName>
+        <label>Orsimer tusks</label>
+        <description>Carriers have the lower tusks that mark the Orsimer, and take some pride in keeping them sharp.</description>
+        <iconPath>UI/Icons/Genes/Gene_Tusks</iconPath>
+        <displayCategory>Cosmetic</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/ESCP_Orsimer/Tusk/Tusk</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Orsimer/Tusk/Tusk1</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Orsimer/Tusk/Tusk2</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Orsimer/Tusk/Tusk3</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Orsimer/Tusk/Tusk4</li>
+                </texPaths>
+                <colorType>Custom</colorType>
+                <color>(0.92, 0.89, 0.8)</color>
+                <parentTagDef>Head</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>72</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>-2</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+</Defs>

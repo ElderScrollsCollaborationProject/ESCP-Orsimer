@@ -1,0 +1,2263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Cub_Loon_Chaser</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Cub_Loon_Chaser</identifier>
+        <slot>Childhood</slot>
+        <title>cub loon chaser</title>
+        <titleShort>Chaser</titleShort>
+        <description>[PAWN_nameDef] would spend hours each day chasing the local chub loons around the coast. [PAWN_nameDef] never got close to actually catching one, which is quite an accomplishment as chub loons aren't exactly fast on land.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Echatere_Herder</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Echatere_Herder</identifier>
+        <slot>Childhood</slot>
+        <title>echatere herder</title>
+        <titleShort>Herder</titleShort>
+        <description>[PAWN_nameDef] would always tell everyone how [PAWN_pronoun] helped to herd the tame echatere. In truth, [PAWN_nameDef] was bait, [PAWN_pronoun]. Would whistle, and then [PAWN_pronoun] would run.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Tiny_Warrior</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Tiny_Warrior</identifier>
+        <slot>Childhood</slot>
+        <title>tiny warrior</title>
+        <titleShort>Warrior</titleShort>
+        <description>[PAWN_nameDef] was practically born with a sword in [PAWN_possessive] hands. Every day since [PAWN_pronoun] would walk [PAWN_nameDef], was out in the fields, swinging away at anything that got too close. Luckily [PAWN_nameDef] was smart, and kept [PAWN_possessive] distance from the echatere herd.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Welwa_Trainer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Welwa_Trainer</identifier>
+        <slot>Adulthood</slot>
+        <title>welwa trainer</title>
+        <titleShort>Trainer</titleShort>
+        <description>Somewhat skilled with animals, and secretly terrified of echatere, [PAWN_nameDef] decided to instead put [PAWN_possessive] skills to work training welwa. While comparatively safer to be around than echatere, [PAWN_nameDef] did nearly lose fingers a few times.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Echatere_Tender</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Echatere_Tender</identifier>
+        <slot>Adulthood</slot>
+        <title>echatere tender</title>
+        <titleShort>Tender</titleShort>
+        <description>While [PAWN_nameDef] wasn't skilled enough to actually tame echatere, [PAWN_pronoun] did help tend the herds. Taking care of echatere was tough work, as echatere aren't very friendly, even 'tame' ones. [PAWN_nameDef] was sure [PAWN_pronoun] spent more time tending to wounds than actually taking care of the echatere.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Echatere_Tamer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Echatere_Tamer</identifier>
+        <slot>Adulthood</slot>
+        <title>echatere tamer</title>
+        <titleShort>Tamer</titleShort>
+        <description>[PAWN_nameDef] was one of the few Orsimer brave enough to tame wild echatere. [PAWN_pronoun] was also smart enough to know that even a tame echatere was still wild.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Melee>2</Melee>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>Mining</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Stronghold_Builder</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Stronghold_Builder</identifier>
+        <slot>Adulthood</slot>
+        <title>stronghold builder</title>
+        <titleShort>Builder</titleShort>
+        <description>[PAWN_nameDef] helped [PAWN_possessive] tribe construct new strongholds whenever the tribe was forced to move. This happened rather often, so [PAWN_nameDef] became quite skilled at construction.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>6</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Echatere_Cheese_Maker</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Echatere_Cheese_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>echatere cheese maker</title>
+        <titleShort>Cheese maker</titleShort>
+        <description>[PAWN_nameDef] spent much of the day making cheese out of echatere milk. Partly because [PAWN_pronoun] was reasonably good at it, partly because it helped keep a roof over [PAWN_possessive] head, but also partly because echatere cheese is supposedly an aphrodisiac. Though [PAWN_nameDef] could never confirm the truth about that last reason.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>4</Cooking>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Intricate_Orcish_Smith</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Intricate_Orcish_Smith</identifier>
+        <slot>Adulthood</slot>
+        <title>intricate Orcish smith</title>
+        <titleShort>Smith</titleShort>
+        <description>[PAWN_nameDef] was rather skilled at crafting traditional Orsimer armor. Not the primitive stuff the less experienced Orsimer make, but instead finely crafted armor fit for a warrior of stature. Needless to say [PAWN_possessive] crafts were more popular with Imperials than with Orsimer.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Simple_Orcish_Smith</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Simple_Orcish_Smith</identifier>
+        <slot>Adulthood</slot>
+        <title>simple Orcish smith</title>
+        <titleShort>Smith</titleShort>
+        <description>[PAWN_nameDef] made armor for [PAWN_possessive] stronghold. Not the needlessly fancy stuff, but the simple stuff that protects you, and does a good job at it. There was also the bonus that this armor was easy to make, which meant [PAWN_nameDef] often had quite a bit of spare time. [PAWN_pronoun] usually spent this time roasting meat in the forge.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Berserker</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Berserker</identifier>
+        <slot>Adulthood</slot>
+        <title>berserker</title>
+        <titleShort>Berserker</titleShort>
+        <description>Skilled with what ever weapon [PAWN_pronoun] could get [PAWN_possessive] hands on, as long as it wasn't a bow, [PAWN_nameDef] was a fearsome sight on the battlefield. Though [PAWN_pronoun] did have a tendency to ignore any potentially life-threatening wounds acquired during battle.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>Caring, Shooting</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Great_Warrior</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Great_Warrior</identifier>
+        <slot>Adulthood</slot>
+        <title>great warrior</title>
+        <titleShort>Warrior</titleShort>
+        <description>One of the most skilled warriors in [PAWN_possessive] stronghold, [PAWN_nameDef] over time grew tired of dealing with foes that offered little threat. So [PAWN_pronoun] set out into the world in search of a legendary fight, or an honorable death.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>12</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>Caring, PlantWork</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Orichalcum_Miner</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Orichalcum_Miner</identifier>
+        <slot>Adulthood</slot>
+        <title>orichalcum miner</title>
+        <titleShort>Miner</titleShort>
+        <description>[PAWN_nameDef] worked in the orichalcum mine controlled by [PAWN_possessive] stronghold. While raw orichalcum was surprisingly easy to excavate, the mines themselves seemed to often end up infested by various vermin, which is where [PAWN_nameDef]'s other skill came in handy.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Mining>3</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Master_Orichalcum_Smith</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Master_Orichalcum_Smith</identifier>
+        <slot>Adulthood</slot>
+        <title>master orichalcum smith</title>
+        <titleShort>Master smith</titleShort>
+        <description>[PAWN_nameDef] had trained under the watchful eye of one of the best smiths in Orsinium, who in turn had also trained been trained by a master smith. Thanks to this opportunity, [PAWN_nameDef] followed in the footsteps of [PAWN_possessive] master, and became highly skilled at working orichalcum. A truly temperamental metal, just like [PAWN_nameDef].</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>12</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>PlantWork, Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Stronghold_Whelp</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Stronghold_Whelp</identifier>
+        <slot>Childhood</slot>
+        <title>stronghold whelp</title>
+        <titleShort>Whelp</titleShort>
+        <description>Stronghold children fight over food, and the adults take notes. [PAWN_nameDef] learned early that hitting first saves arguing later.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Forge_Bellows_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Forge_Bellows_Child</identifier>
+        <slot>Childhood</slot>
+        <title>forge bellows child</title>
+        <titleShort>Bellows child</titleShort>
+        <description>Orcish steel needs a hot fire and somebody to keep it hot. [PAWN_nameDef] worked the bellows until both arms looked borrowed from someone bigger.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Wise_Womans_Helper</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Wise_Womans_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>wise woman's helper</title>
+        <titleShort>Helper</titleShort>
+        <description>A stronghold's wise woman gathers herbs, patches wounds and frightens the chief. [PAWN_nameDef] carried her basket and studied the third skill closely.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Orsinium_Ruins_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Orsinium_Ruins_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Orsinium ruins child</title>
+        <titleShort>Ruins child</titleShort>
+        <description>Orsinium has been knocked down more than once. [PAWN_nameDef] grew up among the broken walls, stacking back what could still be stacked.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>2</Mining>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Mine_Runner</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Mine_Runner</identifier>
+        <slot>Childhood</slot>
+        <title>mine runner</title>
+        <titleShort>Mine runner</titleShort>
+        <description>Small enough for the narrow seams, [PAWN_nameDef] brought up ore before ever seeing a full day of sun. Orcs don't consider this unusual.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>4</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Code_Of_Malacath_Pupil</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Code_Of_Malacath_Pupil</identifier>
+        <slot>Childhood</slot>
+        <title>Code of Malacath pupil</title>
+        <titleShort>Code pupil</titleShort>
+        <description>The Code says what is owed when someone wrongs you. [PAWN_nameDef] could recite the whole thing at seven, and used it mostly against siblings.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Chiefs_Youngest</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Chiefs_Youngest</identifier>
+        <slot>Childhood</slot>
+        <title>chief's youngest</title>
+        <titleShort>Youngest</titleShort>
+        <description>Being the chief's youngest means a lot of older siblings with something to prove. [PAWN_nameDef] got good at reading a room and leaving it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Welwa_Hunters_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Welwa_Hunters_Child</identifier>
+        <slot>Childhood</slot>
+        <title>welwa hunter's child</title>
+        <titleShort>Hunter's child</titleShort>
+        <description>A welwa will stalk you for miles if it gets curious. [PAWN_nameDef] learned to shoot young, since a stronghold's walls only help so much.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Wrothgar_Mountain_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Wrothgar_Mountain_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Wrothgar mountain child</title>
+        <titleShort>Mountain child</titleShort>
+        <description>Winter comes early in Wrothgar and leaves late. [PAWN_nameDef] grew up breaking ice for water and being told it used to be colder.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Outcasts_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Outcasts_Child</identifier>
+        <slot>Childhood</slot>
+        <title>outcast's child</title>
+        <titleShort>Outcast's child</titleShort>
+        <description>A clan can cast out one of its own, and the children go too. [PAWN_nameDef] grew up in a hut outside the wall, close enough to smell the supper.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Bangkorai_Border_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Bangkorai_Border_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Bangkorai border child</title>
+        <titleShort>Border child</titleShort>
+        <description>Bretons and Redguards both claim the hills around Bangkorai, and neither much like Orcs. [PAWN_nameDef] learned their insults in two languages.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Shield_Polisher</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Shield_Polisher</identifier>
+        <slot>Childhood</slot>
+        <title>shield polisher</title>
+        <titleShort>Polisher</titleShort>
+        <description>Veterans don't polish their own shields when there's a child handy. [PAWN_nameDef] did the polishing and got told how each dent had happened.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Blood_Kin_Fosterling</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Blood_Kin_Fosterling</identifier>
+        <slot>Childhood</slot>
+        <title>blood-kin fosterling</title>
+        <titleShort>Fosterling</titleShort>
+        <description>Two strongholds swapped children to seal a truce. [PAWN_nameDef] spent six years as a promise, fed well and watched closely.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Skyrim_Stronghold_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Skyrim_Stronghold_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Skyrim stronghold child</title>
+        <titleShort>Skyrim child</titleShort>
+        <description>Life at Dushnikh Yal or Largashbur is cold and very direct. [PAWN_nameDef] grew up carrying ore in a land that would prefer you didn't.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>2</Mining>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Tusk_Filer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Tusk_Filer</identifier>
+        <slot>Childhood</slot>
+        <title>tusk filer</title>
+        <titleShort>Tusk filer</titleShort>
+        <description>Young Orcs get vain about their tusks at a certain age. [PAWN_nameDef] charged the others in dried meat to file theirs to a good point.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Trinimac_Story_Listener</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Trinimac_Story_Listener</identifier>
+        <slot>Childhood</slot>
+        <title>Trinimac story listener</title>
+        <titleShort>Story listener</titleShort>
+        <description>An old grandmother said the Orsimer were once elves of a great god, before Boethiah ate him. [PAWN_nameDef] asked questions until told to go fetch wood.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Wolf_Pup_Thief</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Wolf_Pup_Thief</identifier>
+        <slot>Childhood</slot>
+        <title>wolf-pup thief</title>
+        <titleShort>Pup thief</titleShort>
+        <description>There was a den on the north ridge, and then [PAWN_nameDef] came home with a pup under one arm. The clan let [PAWN_objective] keep it, for the entertainment.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Smiths_Second_Apprentice</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Smiths_Second_Apprentice</identifier>
+        <slot>Childhood</slot>
+        <title>smith's second apprentice</title>
+        <titleShort>Second apprentice</titleShort>
+        <description>The first apprentice got the fine work. [PAWN_nameDef] got the hinges, the nails and a thorough education in why nails matter.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Stew_Tender</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Stew_Tender</identifier>
+        <slot>Childhood</slot>
+        <title>stew tender</title>
+        <titleShort>Stew tender</titleShort>
+        <description>A stronghold pot never goes empty and never gets cleaned. [PAWN_nameDef] kept it going all year and took great pride in its depth.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>4</Cooking>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Wall_Builders_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Wall_Builders_Child</identifier>
+        <slot>Childhood</slot>
+        <title>wall builder's child</title>
+        <titleShort>Wall child</titleShort>
+        <description>Orcs don't trust a wall they didn't build, and rarely trust those either. [PAWN_nameDef] carried stones until knowing every course by touch.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>4</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Duel_Witness</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Duel_Witness</identifier>
+        <slot>Childhood</slot>
+        <title>duel witness</title>
+        <titleShort>Witness</titleShort>
+        <description>Duels in a stronghold need witnesses, and children have good memories. [PAWN_nameDef] saw eleven before age ten and could say who cheated.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Tannery_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Tannery_Child</identifier>
+        <slot>Childhood</slot>
+        <title>tannery child</title>
+        <titleShort>Tannery child</titleShort>
+        <description>Nobody visits the tanner's family. [PAWN_nameDef] grew up with the stink, the scraped hides and a great deal of peace and quiet.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Goat_Thief</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Goat_Thief</identifier>
+        <slot>Childhood</slot>
+        <title>goat thief</title>
+        <titleShort>Goat thief</titleShort>
+        <description>Neighboring farmers kept their goats poorly watched, in [PAWN_nameDef]'s considered opinion. Several were reassigned to better homes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Imperial_Foundling</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Imperial_Foundling</identifier>
+        <slot>Childhood</slot>
+        <title>Imperial foundling</title>
+        <titleShort>Foundling</titleShort>
+        <description>An Orc baby left at an Imperial shrine is a problem for everyone. [PAWN_nameDef] grew up in a kind house and was stared at in every street.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_War_Orphan</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_War_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>war orphan</title>
+        <titleShort>War orphan</titleShort>
+        <description>Wars pass over Orc lands on their way to somewhere important. [PAWN_nameDef] lost a family to a passing army that never learned their names.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Wood_Gatherer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Wood_Gatherer</identifier>
+        <slot>Childhood</slot>
+        <title>wood gatherer</title>
+        <titleShort>Wood gatherer</titleShort>
+        <description>Forges eat wood by the cartload. [PAWN_nameDef] walked further for it every year and came to know each tree on the mountain.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Horn_Blower</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Horn_Blower</identifier>
+        <slot>Childhood</slot>
+        <title>horn blower</title>
+        <titleShort>Horn blower</titleShort>
+        <description>The stronghold's horn signals everything from a raid to dinner. [PAWN_nameDef] took it over when the old blower's teeth went, and got fond of the attention.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Arena_Runt</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Arena_Runt</identifier>
+        <slot>Childhood</slot>
+        <title>arena runt</title>
+        <titleShort>Arena runt</titleShort>
+        <description>Fighting pits take the small ones for the crowd's amusement. [PAWN_nameDef] was small for about one more year.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Bone_Stacker</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Bone_Stacker</identifier>
+        <slot>Childhood</slot>
+        <title>bone stacker</title>
+        <titleShort>Bone stacker</titleShort>
+        <description>Ancestors go in the clan's bone hall, tidily. [PAWN_nameDef] looked after the stacks and could say who had which bad knee.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Ore_Sorter</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Ore_Sorter</identifier>
+        <slot>Childhood</slot>
+        <title>ore sorter</title>
+        <titleShort>Ore sorter</titleShort>
+        <description>Good orichalcum looks a lot like bad rock until you know better. [PAWN_nameDef] got to know better, and nobody could fool [PAWN_objective] on weight.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>3</Mining>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Peddlers_Tag_Along</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Peddlers_Tag_Along</identifier>
+        <slot>Childhood</slot>
+        <title>peddler's tag-along</title>
+        <titleShort>Tag-along</titleShort>
+        <description>A Khajiit peddler came by each year and [PAWN_nameDef] finally followed the cart. The peddler taught haggling and sent the child home after a season.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Ice_Fisher</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Ice_Fisher</identifier>
+        <slot>Childhood</slot>
+        <title>ice fisher</title>
+        <titleShort>Ice fisher</titleShort>
+        <description>There's a lake above the stronghold that gives up fish only through a hole. [PAWN_nameDef] sat over it for a good part of every winter.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Shamans_Drum_Carrier</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Shamans_Drum_Carrier</identifier>
+        <slot>Childhood</slot>
+        <title>shaman's drum carrier</title>
+        <titleShort>Drum carrier</titleShort>
+        <description>Certain rites need a certain drum, and it weighs more than you'd think. [PAWN_nameDef] carried it up the mountain each new moon.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Hard_Headed_Runt</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Hard_Headed_Runt</identifier>
+        <slot>Childhood</slot>
+        <title>hard-headed runt</title>
+        <titleShort>Hard head</titleShort>
+        <description>Being kicked by an echatere killed most who tried it. [PAWN_nameDef] walked it off and got a reputation, and a slight tilt of the head.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Armor_Menders_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Armor_Menders_Child</identifier>
+        <slot>Childhood</slot>
+        <title>armor mender's child</title>
+        <titleShort>Mender's child</titleShort>
+        <description>Mended armor comes back with a story and usually a bloodstain. [PAWN_nameDef] sat among it all, stitching straps and asking who had won.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Malacath_Shrine_Keeper</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Malacath_Shrine_Keeper</identifier>
+        <slot>Childhood</slot>
+        <title>Malacath shrine keeper</title>
+        <titleShort>Shrine keeper</titleShort>
+        <description>Prayers to Malacath tend to be complaints. [PAWN_nameDef] heard many of them while clearing the offerings, and learned who was angry at whom.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Lost_In_The_Wrothgar_Snow</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Lost_In_The_Wrothgar_Snow</identifier>
+        <slot>Childhood</slot>
+        <title>lost in the Wrothgar snow</title>
+        <titleShort>Snow survivor</titleShort>
+        <description>A blizzard kept [PAWN_nameDef] out for three nights. The clan had already divided the spare boots when the child walked back in.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Melee>1</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Chain_Carrier</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Chain_Carrier</identifier>
+        <slot>Childhood</slot>
+        <title>chain carrier</title>
+        <titleShort>Chain carrier</titleShort>
+        <description>Mine chain comes in long loops and no one wants to carry it. [PAWN_nameDef] did, and has unusually large shoulders because of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Tribal_Debt_Payer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Tribal_Debt_Payer</identifier>
+        <slot>Childhood</slot>
+        <title>tribal debt payer</title>
+        <titleShort>Debt payer</titleShort>
+        <description>An uncle's blood price had to be worked off, and [PAWN_nameDef] was the available family. Three years at another clan's forge settled the matter.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Mead_Brewers_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Mead_Brewers_Child</identifier>
+        <slot>Childhood</slot>
+        <title>mead brewer's child</title>
+        <titleShort>Brewer's child</titleShort>
+        <description>Orcish mead can peel varnish. [PAWN_nameDef] got to stir and taste, which explains a fair amount about later judgment.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Clans_First_Reader</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Clans_First_Reader</identifier>
+        <slot>Childhood</slot>
+        <title>clan's first reader</title>
+        <titleShort>First reader</titleShort>
+        <description>No one in the clan could read when a battered book came through. [PAWN_nameDef] worked it out alone over a whole winter, mostly to prove someone wrong.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Bear_Hide_Wearer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Bear_Hide_Wearer</identifier>
+        <slot>Childhood</slot>
+        <title>bear-hide wearer</title>
+        <titleShort>Bear hide</titleShort>
+        <description>[PAWN_nameDef] tracked a young bear for days to prove a point. The hide didn't fit, and [PAWN_pronoun] wore it for two years regardless.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Gate_Watch_Child</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Gate_Watch_Child</identifier>
+        <slot>Childhood</slot>
+        <title>gate watch child</title>
+        <titleShort>Gate watch</titleShort>
+        <description>Children make good lookouts because they get bored and look at everything. [PAWN_nameDef] once spotted a raid hours before the sentries.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Quiet_One</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Quiet_One</identifier>
+        <slot>Childhood</slot>
+        <title>quiet one</title>
+        <titleShort>Quiet one</titleShort>
+        <description>A stronghold is loud, and [PAWN_nameDef] was not. Drawings on the walls behind the smokehouse were the only sign anyone noticed for some years.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Sled_Hauler</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Sled_Hauler</identifier>
+        <slot>Childhood</slot>
+        <title>sled hauler</title>
+        <titleShort>Sled hauler</titleShort>
+        <description>Ore goes down the mountain by sled, along a route that kills somebody most years. [PAWN_nameDef] rode behind one and learned to jump off in time.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Stolen_By_Raiders</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Stolen_By_Raiders</identifier>
+        <slot>Childhood</slot>
+        <title>stolen by raiders</title>
+        <titleShort>Raid-taken</titleShort>
+        <description>Bandits took [PAWN_nameDef] from the road for the ransom. The clan came with the ransom and a number of very large relatives. There was no further trouble.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Orsinium_Guard</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Orsinium_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Orsinium guard</title>
+        <titleShort>Orsinium guard</titleShort>
+        <description>Holding a wall is a family tradition among the Orcs, as is having it knocked down. [PAWN_nameDef] stood on Orsinium's walls and saw what comes next.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Legion_Auxiliary</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Legion_Auxiliary</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion auxiliary</title>
+        <titleShort>Legion auxiliary</titleShort>
+        <description>Orcs make outstanding Imperial soldiers and are told this at great length, usually by officers who won't eat with them. [PAWN_nameDef] served twenty years.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Blood_Oath_Champion</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Blood_Oath_Champion</identifier>
+        <slot>Adulthood</slot>
+        <title>blood-oath champion</title>
+        <titleShort>Oath champion</titleShort>
+        <description>When two clans dispute, each sends a champion so the rest don't have to die. [PAWN_nameDef] has been sent nine times, and came home each time.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>8</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Stronghold_Warlord</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Stronghold_Warlord</identifier>
+        <slot>Adulthood</slot>
+        <title>stronghold warlord</title>
+        <titleShort>Warlord</titleShort>
+        <description>It takes more than strength to hold several clans, though that does come first. [PAWN_nameDef] kept four strongholds together until a fifth got ideas.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Dragon_Knight</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Dragon_Knight</identifier>
+        <slot>Adulthood</slot>
+        <title>Dragon Knight</title>
+        <titleShort>Dragon Knight</titleShort>
+        <description>The old Akaviri fighting arts didn't care what shape your tusks were. [PAWN_nameDef] learned them, and came home with an odd style and new scars.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Bounty_Hunter</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Bounty_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>bounty hunter</title>
+        <titleShort>Bounty hunter</titleShort>
+        <description>Nobody's surprised when an Orc turns up at the door. [PAWN_nameDef] has collected on men who hid in three provinces.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Mountain_Archer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Mountain_Archer</identifier>
+        <slot>Adulthood</slot>
+        <title>mountain archer</title>
+        <titleShort>Mountain archer</titleShort>
+        <description>Archers aren't what people expect from a stronghold. [PAWN_nameDef] has dropped several who didn't expect it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Berserker_Of_Wrothgar</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Berserker_Of_Wrothgar</identifier>
+        <slot>Adulthood</slot>
+        <title>berserker of Wrothgar</title>
+        <titleShort>Berserker</titleShort>
+        <description>At some point in a fight, the pain stops mattering. [PAWN_nameDef] has been told what happens after that, though memory of it is thin.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Ogre_Hunter</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Ogre_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>ogre hunter</title>
+        <titleShort>Ogre hunter</titleShort>
+        <description>Ogres come down from the peaks when the snow gets deep. [PAWN_nameDef] went up to meet them each year with a heavy spear.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Bandit_Chief</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Bandit_Chief</identifier>
+        <slot>Adulthood</slot>
+        <title>bandit chief</title>
+        <titleShort>Bandit chief</titleShort>
+        <description>Being cast out doesn't end a career. [PAWN_nameDef] gathered other outcasts and took tolls on a road nobody could patrol.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Caravan_Guard</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Caravan_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>caravan guard</title>
+        <titleShort>Caravan guard</titleShort>
+        <description>Merchants like having a large Orc next to the wagon, and bandits like it less. [PAWN_nameDef] often got through entire seasons without having to fight at all.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Mercenary_Sergeant</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Mercenary_Sergeant</identifier>
+        <slot>Adulthood</slot>
+        <title>mercenary sergeant</title>
+        <titleShort>Sergeant</titleShort>
+        <description>Sellswords will fight for anyone, but they listen to someone big. [PAWN_nameDef] ran a company from Rihad to Solitude and paid out on time.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_War_Smith</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_War_Smith</identifier>
+        <slot>Adulthood</slot>
+        <title>war smith</title>
+        <titleShort>War smith</titleShort>
+        <description>Weapons get damaged in the field, and someone has to fix them there. [PAWN_nameDef] marched with a portable anvil and hit more than metal with the hammer.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Melee>4</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Arena_Champion</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Arena_Champion</identifier>
+        <slot>Adulthood</slot>
+        <title>arena champion</title>
+        <titleShort>Arena champion</titleShort>
+        <description>The crowds in Imperial City and Sentinel loved a good villain. [PAWN_nameDef] obliged for thirteen years, and retired with all but one ear.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Bretic_War_Veteran</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Bretic_War_Veteran</identifier>
+        <slot>Adulthood</slot>
+        <title>Bretic war veteran</title>
+        <titleShort>War veteran</titleShort>
+        <description>Bretons have marched on Orc lands more than once, usually when Orsinium starts doing well. [PAWN_nameDef] stood on the wall the last time and has never eaten a Breton pie since.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Tracker_Of_The_High_Passes</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Tracker_Of_The_High_Passes</identifier>
+        <slot>Adulthood</slot>
+        <title>tracker of the high passes</title>
+        <titleShort>Tracker</titleShort>
+        <description>Nothing moves through the passes without leaving marks. [PAWN_nameDef] read them for whichever clan was paying, and sometimes for the other one.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Clans_Shield</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Clans_Shield</identifier>
+        <slot>Adulthood</slot>
+        <title>clan's shield</title>
+        <titleShort>Clan's shield</titleShort>
+        <description>The chief goes through the door first, by law. [PAWN_nameDef] goes through it a half step ahead of the chief, by long agreement.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Duel_Second</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Duel_Second</identifier>
+        <slot>Adulthood</slot>
+        <title>duel second</title>
+        <titleShort>Duel second</titleShort>
+        <description>A proper grudge needs someone to carry messages and check the blades. [PAWN_nameDef] kept many feuds orderly, and only fought when things got sloppy.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Skyrim_Hold_Mercenary</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Skyrim_Hold_Mercenary</identifier>
+        <slot>Adulthood</slot>
+        <title>Skyrim hold mercenary</title>
+        <titleShort>Hold mercenary</titleShort>
+        <description>Jarls will pay Orcs and then bar them from the hall. [PAWN_nameDef] took the coin, ate in the stable and kept a list.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Siege_Sapper</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Siege_Sapper</identifier>
+        <slot>Adulthood</slot>
+        <title>siege sapper</title>
+        <titleShort>Sapper</titleShort>
+        <description>Walls come down from the bottom. [PAWN_nameDef] dug under some of the best in High Rock, and rarely got buried for long.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Construction>3</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Boar_Rider</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Boar_Rider</identifier>
+        <slot>Adulthood</slot>
+        <title>boar rider</title>
+        <titleShort>Boar rider</titleShort>
+        <description>A war boar goes through a shield line better than most soldiers. [PAWN_nameDef] stays on one, most of the time.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>5</Animals>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Peacekeeper_Of_The_Code</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Peacekeeper_Of_The_Code</identifier>
+        <slot>Adulthood</slot>
+        <title>peacekeeper of the Code</title>
+        <titleShort>Code keeper</titleShort>
+        <description>A stronghold's law has few words and all of them hurt. [PAWN_nameDef] enforced it for a chief who valued silence, and settled things quickly.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Stronghold_Healer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Stronghold_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>stronghold healer</title>
+        <titleShort>Healer</titleShort>
+        <description>The wise woman runs the stronghold's healing and spirit matters, and the chief is afraid of her. [PAWN_nameDef] learned at her side and keeps the herbs, the sickbeds and most of the secrets.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Plants>3</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Malacaths_Priest</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Malacaths_Priest</identifier>
+        <slot>Adulthood</slot>
+        <title>Malacath's priest</title>
+        <titleShort>Malacath's priest</titleShort>
+        <description>Malacath hears the wronged and despises the weak. [PAWN_nameDef] preaches on that basis, and doesn't soften it for visitors.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Shaman_Of_The_Mountain</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Shaman_Of_The_Mountain</identifier>
+        <slot>Adulthood</slot>
+        <title>shaman of the mountain</title>
+        <titleShort>Mountain shaman</titleShort>
+        <description>The spirits on the high slopes don't care for being disturbed. [PAWN_nameDef] goes up to ask them anyway, and comes back smelling of smoke.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Trinimac_Revivalist</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Trinimac_Revivalist</identifier>
+        <slot>Adulthood</slot>
+        <title>Trinimac revivalist</title>
+        <titleShort>Revivalist</titleShort>
+        <description>There are Orcs who claim the old god never really died. [PAWN_nameDef] is among them, and is not popular among the priests of Malacath.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Battle_Shaman</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Battle_Shaman</identifier>
+        <slot>Adulthood</slot>
+        <title>battle shaman</title>
+        <titleShort>Battle shaman</titleShort>
+        <description>Wounds need closing while the fight is still on, and someone has to stand there. [PAWN_nameDef] heals with one hand and uses a mace with the other.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Medicine>4</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Mages_Guild_Oddity</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Mages_Guild_Oddity</identifier>
+        <slot>Adulthood</slot>
+        <title>Mages Guild oddity</title>
+        <titleShort>Guild oddity</titleShort>
+        <description>An Orc in Guild robes attracts remarks, generally only once. [PAWN_nameDef] took the tests, passed them and earned a chapter hall's quiet respect.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Forge_Rune_Carver</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Forge_Rune_Carver</identifier>
+        <slot>Adulthood</slot>
+        <title>forge-rune carver</title>
+        <titleShort>Rune carver</titleShort>
+        <description>Runes cut into a blade at the right heat will hold a charge for years. [PAWN_nameDef] learned it from an old smith who never admitted it was magic.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Ancestor_Speaker</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Ancestor_Speaker</identifier>
+        <slot>Adulthood</slot>
+        <title>ancestor speaker</title>
+        <titleShort>Ancestor speaker</titleShort>
+        <description>Some clans keep their dead close and ask their counsel. [PAWN_nameDef] passes along their replies, which tend to be rude.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Bone_Reader</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Bone_Reader</identifier>
+        <slot>Adulthood</slot>
+        <title>bone reader</title>
+        <titleShort>Bone reader</titleShort>
+        <description>Thrown knuckle bones tell the chief when to march. [PAWN_nameDef] reads them truthfully, with some attention to what the chief already wants.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Winter_Witch</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Winter_Witch</identifier>
+        <slot>Adulthood</slot>
+        <title>winter witch</title>
+        <titleShort>Winter witch</titleShort>
+        <description>Frost magic comes naturally when you grow up in Wrothgar. [PAWN_nameDef] lives apart, trades in remedies, and has been left alone since an unfortunate raid.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Plants>4</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Exile_Enchanter</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Exile_Enchanter</identifier>
+        <slot>Adulthood</slot>
+        <title>exile enchanter</title>
+        <titleShort>Exile enchanter</titleShort>
+        <description>[PAWN_nameDef] left the clan to study enchanting among the Bretons, who were astonished and then expensive. Few ever bought from an Orc twice, though the work was fine.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Stone_Singer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Stone_Singer</identifier>
+        <slot>Adulthood</slot>
+        <title>stone-singer</title>
+        <titleShort>Stone-singer</titleShort>
+        <description>Old miners say the rock tells you where it will crack. [PAWN_nameDef] sings low in the tunnels and listens, and has not lost a crew yet.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Herbal_Poisoner</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Herbal_Poisoner</identifier>
+        <slot>Adulthood</slot>
+        <title>herbal poisoner</title>
+        <titleShort>Herbal poisoner</titleShort>
+        <description>There's no shame in poison if the Code allows it. [PAWN_nameDef] knows precisely what the Code allows, down to the dose.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Blood_Rite_Keeper</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Blood_Rite_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>blood-rite keeper</title>
+        <titleShort>Blood-rite keeper</titleShort>
+        <description>Marriages, oaths and feuds all want a bit of blood at the right moment. [PAWN_nameDef] brings the knife and the bowl, and knows the words.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Dream_Walker</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Dream_Walker</identifier>
+        <slot>Adulthood</slot>
+        <title>dream walker</title>
+        <titleShort>Dream walker</titleShort>
+        <description>A bitter root and a long fast take you somewhere useful. [PAWN_nameDef] has gone there often and returned with advice the chief was forced to take seriously.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Medicine>4</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Master_Orcish_Smith</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Master_Orcish_Smith</identifier>
+        <slot>Adulthood</slot>
+        <title>master orcish smith</title>
+        <titleShort>Master smith</titleShort>
+        <description>Orcish steel is the reason outsiders put up with Orcs. [PAWN_nameDef] has been offered gold by three kings and sold to one.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>8</Crafting>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Stronghold_Cook</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Stronghold_Cook</identifier>
+        <slot>Adulthood</slot>
+        <title>stronghold cook</title>
+        <titleShort>Stronghold cook</titleShort>
+        <description>Everyone in a stronghold has an opinion, and they all share it at dinner. [PAWN_nameDef] has outlasted most of the opinions.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Echatere_Rancher</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Echatere_Rancher</identifier>
+        <slot>Adulthood</slot>
+        <title>echatere rancher</title>
+        <titleShort>Echatere rancher</titleShort>
+        <description>Nothing about an echatere is forgiving. [PAWN_nameDef] raises them for meat, wool and a certain professional pride.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>7</Animals>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Wall_Mason</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Wall_Mason</identifier>
+        <slot>Adulthood</slot>
+        <title>wall mason</title>
+        <titleShort>Wall mason</titleShort>
+        <description>Orsinium has been rebuilt by the descendants of those who built it last. [PAWN_nameDef] puts stones where previous generations of the family put them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>7</Construction>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Clan_Tanner</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Clan_Tanner</identifier>
+        <slot>Adulthood</slot>
+        <title>clan tanner</title>
+        <titleShort>Tanner</titleShort>
+        <description>Thick hides make good armor once you get past the smell. [PAWN_nameDef] got past it long ago, and is the only one who has.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Highland_Farmer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Highland_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>highland farmer</title>
+        <titleShort>Highland farmer</titleShort>
+        <description>Rye and tough roots are about all Wrothgar will grow. [PAWN_nameDef] grew them anyway, on terraces that took three generations to clear.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Peddler_To_The_Clans</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Peddler_To_The_Clans</identifier>
+        <slot>Adulthood</slot>
+        <title>peddler to the clans</title>
+        <titleShort>Peddler</titleShort>
+        <description>Strongholds will trade with their own kind where they would stab an outsider. [PAWN_nameDef] walked between them with a mule and many opinions on salt.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Mead_Brewer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Mead_Brewer</identifier>
+        <slot>Adulthood</slot>
+        <title>mead brewer</title>
+        <titleShort>Mead brewer</titleShort>
+        <description>Good mead keeps a stronghold peaceful, and strong mead keeps the arguments interesting. [PAWN_nameDef] can produce either on request.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Stonecutter</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Stonecutter</identifier>
+        <slot>Adulthood</slot>
+        <title>stonecutter</title>
+        <titleShort>Stonecutter</titleShort>
+        <description>Dressed stone is worth more than rough, and a stronghold has plenty of time on its hands. [PAWN_nameDef] cut blocks in all weathers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Construction>3</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Clan_Storyteller</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Clan_Storyteller</identifier>
+        <slot>Adulthood</slot>
+        <title>clan storyteller</title>
+        <titleShort>Storyteller</titleShort>
+        <description>Long winters need someone to fill them. [PAWN_nameDef] knows the clan's feuds back eleven generations, and which ones are still owed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Tusk_Carver</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Tusk_Carver</identifier>
+        <slot>Adulthood</slot>
+        <title>tusk carver</title>
+        <titleShort>Tusk carver</titleShort>
+        <description>Echatere tusks make fine carving stock. [PAWN_nameDef]'s work has ended up on the walls of Imperial nobles, who were told it was Akaviri.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>7</Artistic>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Ironworker_In_Wayrest</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Ironworker_In_Wayrest</identifier>
+        <slot>Adulthood</slot>
+        <title>ironworker in Wayrest</title>
+        <titleShort>City ironworker</titleShort>
+        <description>City smiths will hire an Orc for the heavy work and then be amazed. [PAWN_nameDef] put up with that for many years and saved every coin.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Imperial_City_Docker</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Imperial_City_Docker</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial City docker</title>
+        <titleShort>Docker</titleShort>
+        <description>Lifting comes easily when you're built for it, and a dock doesn't ask questions. [PAWN_nameDef] worked the Waterfront until [PAWN_possessive] back gave out.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>5</Construction>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Tax_Paying_Merchant</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Tax_Paying_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>tax-paying merchant</title>
+        <titleShort>Merchant</titleShort>
+        <description>Selling Orcish steel in Bretony means being polite in a language built for insults. [PAWN_nameDef] manages, and charges extra for the effort.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Mule_Trainer</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Mule_Trainer</identifier>
+        <slot>Adulthood</slot>
+        <title>mule trainer</title>
+        <titleShort>Mule trainer</titleShort>
+        <description>Mules respect stubbornness above all else, which gives Orcs an advantage. [PAWN_nameDef] could train any of them to walk a mountain ledge.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Retired_Soldier</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Retired_Soldier</identifier>
+        <slot>Adulthood</slot>
+        <title>retired soldier</title>
+        <titleShort>Retired soldier</titleShort>
+        <description>After enough years with the Legion, a small farm seems good. [PAWN_nameDef] went home with a pension and found the neighbors still wanted to fight.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Plants>4</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Healer_Without_A_Title</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Healer_Without_A_Title</identifier>
+        <slot>Adulthood</slot>
+        <title>healer without a title</title>
+        <titleShort>Healer</titleShort>
+        <description>Not everyone who sets a bone needs a stronghold's blessing. [PAWN_nameDef] treated whoever came, no questions, and a surprising number of Bretons.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>7</Medicine>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Outcast_Hermit</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Outcast_Hermit</identifier>
+        <slot>Adulthood</slot>
+        <title>outcast hermit</title>
+        <titleShort>Hermit</titleShort>
+        <description>Cast out over a matter nobody now recalls, [PAWN_nameDef] built a hut above the snow line. Visitors are told to go away, with occasional soup.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>5</Plants>
+            <Cooking>3</Cooking>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Bonesetter</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Bonesetter</identifier>
+        <slot>Adulthood</slot>
+        <title>bonesetter</title>
+        <titleShort>Bonesetter</titleShort>
+        <description>Fights mean broken bones, and a stronghold has both in plenty. [PAWN_nameDef] sets them fast, on the theory that the patient may need the arm back by nightfall.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Charcoal_Burner</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Charcoal_Burner</identifier>
+        <slot>Adulthood</slot>
+        <title>charcoal burner</title>
+        <titleShort>Charcoal burner</titleShort>
+        <description>Forges need clean coal, and it takes days of watching a smoking mound. [PAWN_nameDef] spent long seasons in the woods, smelling of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>4</Plants>
+            <Construction>4</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Cooper</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Cooper</identifier>
+        <slot>Adulthood</slot>
+        <title>cooper</title>
+        <titleShort>Cooper</titleShort>
+        <description>Anyone who says barrels are easy should try one. [PAWN_nameDef] made the casks that held the clan's mead, salt and, for a while, a very angry badger.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Shepherd_Of_The_Crags</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Shepherd_Of_The_Crags</identifier>
+        <slot>Adulthood</slot>
+        <title>shepherd of the crags</title>
+        <titleShort>Crag shepherd</titleShort>
+        <description>Goats go where they like, and so must the shepherd. [PAWN_nameDef] knows every ledge in the valley, as well as the wolves who use them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Hide_Boat_Maker</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Hide_Boat_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>hide-boat maker</title>
+        <titleShort>Boat maker</titleShort>
+        <description>Orcs aren't sailors by reputation. [PAWN_nameDef] builds sturdy hide boats for the high lakes, and is tired of hearing the joke.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>5</Construction>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Chieftains_Scribe</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Chieftains_Scribe</identifier>
+        <slot>Adulthood</slot>
+        <title>chieftain's scribe</title>
+        <titleShort>Scribe</titleShort>
+        <description>The chief wants the tally kept, and doesn't read. [PAWN_nameDef] keeps it honest, more or less, and has become quietly powerful.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Smelter</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Smelter</identifier>
+        <slot>Adulthood</slot>
+        <title>smelter</title>
+        <titleShort>Smelter</titleShort>
+        <description>Molten ore does not forgive a slip. [PAWN_nameDef] poured for many years and has only the normal number of burns for the trade.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Fur_Trader</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Fur_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>fur trader</title>
+        <titleShort>Fur trader</titleShort>
+        <description>Pelts from the high country sell well in Evermore. [PAWN_nameDef] brought them down every spring and came back with salt, needles and gossip.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Hunter_Of_The_Stronghold</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Hunter_Of_The_Stronghold</identifier>
+        <slot>Adulthood</slot>
+        <title>hunter of the stronghold</title>
+        <titleShort>Clan hunter</titleShort>
+        <description>A chief who's fed well is a calmer chief. [PAWN_nameDef] brings down what the valley provides and has a say in what's for supper.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Adult_Ropemaker</defName>
+        <identifier>ESCP_Backstory_Orsimer_Adult_Ropemaker</identifier>
+        <slot>Adulthood</slot>
+        <title>ropemaker</title>
+        <titleShort>Ropemaker</titleShort>
+        <description>Mine lift ropes have to hold, as everyone below knows. [PAWN_nameDef] twists them tight and rides on them personally to settle any doubts.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Orsimer_Child_Smelters_Runner</defName>
+        <identifier>ESCP_Backstory_Orsimer_Child_Smelters_Runner</identifier>
+        <slot>Childhood</slot>
+        <title>smelter's runner</title>
+        <titleShort>Smelter's runner</titleShort>
+        <description>Hot slag has to be dragged clear before it sets. [PAWN_nameDef] ran the drag line with a wet rag over the face, and came away with a loud voice and few eyebrows.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Orsimer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>2</Mining>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

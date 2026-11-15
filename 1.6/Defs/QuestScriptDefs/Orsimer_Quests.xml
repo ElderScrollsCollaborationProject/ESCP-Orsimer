@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>ESCP_Quest_Orsimer_ForgeOre</defName>
+        <rootSelectionWeight>0.5</rootSelectionWeight>
+        <rootMinPoints>20</rootMinPoints>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <canGiveRoyalFavor>false</canGiveRoyalFavor>
+        <expireDaysRange>5~10</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->Orsinium: Orichalcum for the Forge</li>
+                <li>questName->Orsinium: The Forge-Wife's Order</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->The forges of Orsinium have run short of orichalcum, and Orcish armor cannot be made without it. The forge-wife has sent word on behalf of [asker_nameFull] that the stronghold will pay for [requiredCount] orichalcum ingots.\n\nOrcs keep a long memory of who helped them and who did not. Have [requiredCount] orichalcum ingots in storage within [orderDays] days.</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <factionDef>ESCP_Faction_Orsinium</factionDef>
+                    <storeAs>asker</storeAs>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>requiredCount</name>
+                    <value>$(randInt(4,8)*5)</value>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>orderDays</name>
+                    <value>25</value>
+                </li>
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_WatchItemCountOnMap">
+                    <map>$map</map>
+                    <itemDef>ESCP_Resource_Orichalcum_Ingot</itemDef>
+                    <requiredCount>$requiredCount</requiredCount>
+                    <outSignalComplete>ore.Delivered</outSignalComplete>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>ore.Delivered</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <allowGoodwill>true</allowGoodwill>
+                                    <allowRoyalFavor>false</allowRoyalFavor>
+                                </parms>
+                                <addCampLootReward>false</addCampLootReward>
+                                <customLetterLabel>Orichalcum delivered</customLetterLabel>
+                                <customLetterText>Orc haulers have carried the orichalcum off to the stronghold forges. The forge-wife sent payment back with them, and a promise that the colony's name will be spoken kindly in Orsinium.</customLetterText>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$($orderDays * 60000)</delayTicks>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

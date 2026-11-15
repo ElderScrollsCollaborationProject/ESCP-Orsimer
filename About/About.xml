@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <packageId>Rick.ESCP.Orsimer</packageId>
+    <author>Rick</author>
+    <name>ESCP - Orsimer</name>
+    <description>The Elder Scrolls Collaboration Project Presents: Orsimer, an Elder Scrolls xenotype and faction mod featuring the Orcs of Wrothgar and Orsinium. Based on the original ESCP Orsimer by SirMashedPotato, rebuilt to run without Humanoid Alien Races.</description>
+    <url>https://github.com/ElderScrollsCollaborationProject</url>
+    <supportedVersions>
+        <li>1.6</li>
+        <li>1.7</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Rick.ESCP.Core.Tools</packageId>
+            <displayName>ESCP - Tools</displayName>
+            <downloadUrl>https://github.com/ElderScrollsCollaborationProject</downloadUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Rick.ESCP.Core.Tools</li>
+    </loadAfter>
+
+</ModMetaData>

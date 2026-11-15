@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <MemeDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Meme_OrsimerCode</defName>
+        <label>Code of Malacath</label>
+        <description>The strong keep what they can hold. A wrong is answered, a debt is paid in blood, and those who were cast out have no need of anyone's pity.</description>
+        <iconPath>UI/Structures/ESCP_OriginDivinesEight</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li>
+                <li>Cannibalism_Abhorrent</li>
+            </li>
+            <li>
+                <li>Slavery_Disapproved</li>
+                <li>Slavery_Acceptable</li>
+            </li>
+            <li>
+                <li>Execution_RespectedIfGuilty</li>
+            </li>
+            <li>
+                <li>Research_Fast</li>
+            </li>
+            <li>
+                <li>DrugUse_MedicalOrSocial</li>
+            </li>
+        </requireOne>
+    </MemeDef>
+
+</Defs>

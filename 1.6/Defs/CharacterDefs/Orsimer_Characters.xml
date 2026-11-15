@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Gortwog</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Orsimer_King</pawnKind>
+        <faction>ESCP_Faction_Orsinium</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Orsimer</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Gortwog</firstName>
+                <lastName>gro-Nagorm</lastName>
+                <nickname>the King</nickname>
+                <gender>Male</gender>
+                <age>68</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 35, 30)</hairColor>
+                <hairDef>Decent</hairDef>
+                <headTypeDef>ESCP_HeadMerWideFace_Male_Average_Wide</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Kurog</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Orsimer_Warlord</pawnKind>
+        <faction>ESCP_Faction_Orsimer_Raiders</faction>
+        <eras>
+            <li>2</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Orsimer</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Kurog</firstName>
+                <lastName>gro-Bagrakh</lastName>
+                <nickname>the Betrayer</nickname>
+                <gender>Male</gender>
+                <age>55</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 40, 35)</hairColor>
+                <hairDef>Decent</hairDef>
+                <headTypeDef>ESCP_HeadMerWideFace_Male_Average_Wide</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>ESCP_Trait_Orsimer_Bloodied</key>
+                        <value>0</value>
+                    </li>
+                    <li>
+                        <key>Bloodlust</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+</Defs>

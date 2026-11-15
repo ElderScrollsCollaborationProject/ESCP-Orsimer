@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Orsimer_Clansman</defName>
+        <label>clan member</label>
+        <description>A citizen of good lineage, entitled to address a Canon and to have that address ignored politely.</description>
+        <tags>
+            <li>ESCP_Title_Orsimer</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Orsimer_Blooded</defName>
+        <label>blood-kin</label>
+        <description>A senior scholar of the College. Sapiarchs decide what is true for the rest of Summerset, and that has always been a kind of power.</description>
+        <tags>
+            <li>ESCP_Title_Orsimer</li>
+        </tags>
+        <seniority>200</seniority>
+        <favorCost>6</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Orsimer_Chieftain</defName>
+        <label>chieftain</label>
+        <description>A court officer of the Crystal Tower, charged with ceremony, records and the careful reminding of nobles what they promised.</description>
+        <tags>
+            <li>ESCP_Title_Orsimer</li>
+        </tags>
+        <seniority>500</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Orsimer_Warlord</defName>
+        <label>warlord</label>
+        <description>An officer of the Thalmor with authority to investigate, detain and quietly close any matter touching the Dominion's security.</description>
+        <tags>
+            <li>ESCP_Title_Orsimer</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>16</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+</Defs>

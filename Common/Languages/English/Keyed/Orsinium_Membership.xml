@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Orsinium_Enlist_Letter_Title>Sworn to Orsinium</ESCP_Orsinium_Enlist_Letter_Title>
+    <ESCP_Orsinium_Enlist_Letter_Label>The colony is now sworn to Orsinium. The strongholds will share their forges and their fights with you.</ESCP_Orsinium_Enlist_Letter_Label>
+    <ESCP_Orsinium_Enlist_Button_Label>Swear to Orsinium</ESCP_Orsinium_Enlist_Button_Label>
+    <ESCP_Orsinium_Enlist_Button_Desc>Swear to the King of Orsinium and live by the Code of Malacath.</ESCP_Orsinium_Enlist_Button_Desc>
+    <ESCP_Orsinium_Enlist_Requrements_Not_Satisfied>The Orcs do not respect you yet. Standing: {0}.</ESCP_Orsinium_Enlist_Requrements_Not_Satisfied>
+    <ESCP_Orsinium_Enlisted_To_Hostile_Faction>Orsinium does not accept the oath of an enemy.</ESCP_Orsinium_Enlisted_To_Hostile_Faction>
+    <ESCP_Orsinium_Enlisted_With_Key>Sworn to Orsinium</ESCP_Orsinium_Enlisted_With_Key>
+    <ESCP_Orsinium_Missions_Label>Stronghold work</ESCP_Orsinium_Missions_Label>
+    <ESCP_Orsinium_Missions_Desc>See what the chieftains need done.</ESCP_Orsinium_Missions_Desc>
+    <ESCP_Orsinium_Menu_Missions_Desc>Work from the strongholds of Orsinium. Paid when done, and done right.</ESCP_Orsinium_Menu_Missions_Desc>
+    <ESCP_Orsinium_Menu_Missions_Select_Quest>Select a job</ESCP_Orsinium_Menu_Missions_Select_Quest>
+    <ESCP_Orsinium_Menu_Missions_Start_Quest>Accept</ESCP_Orsinium_Menu_Missions_Start_Quest>
+    <ESCP_Orsinium_Menu_Missions_Collect_Bounty>Collect</ESCP_Orsinium_Menu_Missions_Collect_Bounty>
+    <ESCP_Orsinium_Provisions_Label>Draw stronghold stores</ESCP_Orsinium_Provisions_Label>
+    <ESCP_Orsinium_Provisions_Desc>Meat and mead from the stronghold.</ESCP_Orsinium_Provisions_Desc>
+    <ESCP_Orsinium_Storage_Label>Stronghold storeroom</ESCP_Orsinium_Storage_Label>
+    <ESCP_Orsinium_Storage_Desc>Leave goods in an Orc stronghold.</ESCP_Orsinium_Storage_Desc>
+    <ESCP_Orsinium_Resign_Menu_Text>Break your oath to Orsinium? Malacath curses oathbreakers.</ESCP_Orsinium_Resign_Menu_Text>
+    <ESCP_Orsinium_Resign_Letter_Title>Oath to Orsinium broken</ESCP_Orsinium_Resign_Letter_Title>
+    <ESCP_Orsinium_Resign_Letter_Label>The colony has broken its oath to Orsinium.</ESCP_Orsinium_Resign_Letter_Label>
+    <ESCP_Orsinium_Resign_Button_Label>Break the oath</ESCP_Orsinium_Resign_Button_Label>
+    <ESCP_Orsinium_Resign_Button_Desc>End your service to the King of Orsinium.</ESCP_Orsinium_Resign_Button_Desc>
+    <ESCP_Orsinium_Kick_Out_Letter_Title>Cast out of Orsinium</ESCP_Orsinium_Kick_Out_Letter_Title>
+    <ESCP_Orsinium_Kick_Out_Label_Title>Orsinium has cast the colony out, as the Code demands.</ESCP_Orsinium_Kick_Out_Label_Title>
+    <ESCP_Orsinium_Salary_Label>Collect your share</ESCP_Orsinium_Salary_Label>
+    <ESCP_Orsinium_Salary_Desc>Coin from the king's forge tax.</ESCP_Orsinium_Salary_Desc>
+    <ESCP_Orsinium_Work_0_Label>Work the stronghold forge</ESCP_Orsinium_Work_0_Label>
+    <ESCP_Orsinium_Work_0_Desc>Hammer orichalcum under an Orc smith.</ESCP_Orsinium_Work_0_Desc>
+    <ESCP_Orsinium_Work_1_Label>Fight in the pit</ESCP_Orsinium_Work_1_Label>
+    <ESCP_Orsinium_Work_1_Desc>Prove yourself against Orc warriors in the fighting pit.</ESCP_Orsinium_Work_1_Desc>
+
+</LanguageData>

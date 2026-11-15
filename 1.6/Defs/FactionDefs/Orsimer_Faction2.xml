@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>ESCP_Faction_Orsimer_Raiders</defName>
+        <label>Orsimer raiders</label>
+        <description>Clans that have turned to raiding under a warlord, who earned that title in the usual way. Most people avoid the regions they've settled for a reason, and you will not be able to ally with them.</description>
+        <colorSpectrum>
+            <li>(0.45, 0.2, 0.15)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>Orsimer</pawnSingular>
+        <pawnsPlural>Orsimer</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>0.3</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <permanentEnemy>true</permanentEnemy>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Warlord</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/ESCP_OrsimerRaider</factionIconPath>
+        <techLevel>Medieval</techLevel>
+        <fixedName>Orsimer raiders</fixedName>
+        <allowedCultures>
+            <li>ESCP_Culture_Orsimer</li>
+        </allowedCultures>
+
+        <royalTitleTags>
+            <li>ESCP_Title_Orsimer</li>
+        </royalTitleTags>
+        <royalFavorLabel>Plunder</royalFavorLabel>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>The Blood Price</ideoName>
+        <ideoDescription>Everything in the world was taken from someone. The Blood Price holds that the Orsimer are owed a good deal of it back, with interest.</ideoDescription>
+        <deityPresets>
+            <li>
+                <nameType><name>Malacath</name><type>keeper of the sworn oath</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityMalacath</iconPath>
+            </li>
+            <li>
+                <nameType><name>Mauloch</name><type>god of the curse</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/DeityGeneric</iconPath>
+            </li>
+            <li>
+                <nameType><name>Trinimac</name><type>the devoured god</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityTrinimac</iconPath>
+            </li>
+        </deityPresets>
+        <styles>
+            <li>ESCP_Style_Orsimer</li>
+        </styles>
+        <forcedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Meme_OrsimerCode</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Orsimer_Child</li>
+                    <li>ESCP_Backstory_Orsimer_Citizen</li>
+                    <li>ESCP_Backstory_Orsimer_Military</li>
+                    <li>ESCP_Backstory_Orsimer_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <caravanTraderKinds>
+            <li>ESCP_Caravan_Orsimer_Trader</li>
+        </caravanTraderKinds>
+        <visitorTraderKinds>
+            <li>ESCP_Caravan_Orsimer_Trader</li>
+        </visitorTraderKinds>
+        <baseTraderKinds>
+            <li>ESCP_Caravan_Orsimer_Trader</li>
+        </baseTraderKinds>
+
+        <allowedArrivalTemperatureRange>-20~50</allowedArrivalTemperatureRange>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0, 35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <pawnGroupMakers>
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Orsimer_Melee>10</ESCP_Pawnkind_Orsimer_Melee>
+                    <ESCP_Pawnkind_Orsimer_Ranged>7</ESCP_Pawnkind_Orsimer_Ranged>
+                    <ESCP_Pawnkind_Orsimer_Mage>4</ESCP_Pawnkind_Orsimer_Mage>
+                    <ESCP_Pawnkind_Orsimer_Captain>3</ESCP_Pawnkind_Orsimer_Captain>
+                    <ESCP_Pawnkind_Orsimer_Elite>2</ESCP_Pawnkind_Orsimer_Elite>
+                </options>
+            </li>
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Orsimer_Citizen>15</ESCP_Pawnkind_Orsimer_Citizen>
+                    <ESCP_Pawnkind_Orsimer_Merchant>6</ESCP_Pawnkind_Orsimer_Merchant>
+                    <ESCP_Pawnkind_Orsimer_Noble>4</ESCP_Pawnkind_Orsimer_Noble>
+                    <ESCP_Pawnkind_Orsimer_Mage>3</ESCP_Pawnkind_Orsimer_Mage>
+                </options>
+            </li>
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <ESCP_Pawnkind_Orsimer_Trader>1</ESCP_Pawnkind_Orsimer_Trader>
+                    <ESCP_Pawnkind_Orsimer_Quartermaster>1</ESCP_Pawnkind_Orsimer_Quartermaster>
+                </traders>
+                <carriers>
+                    <Muffalo>6</Muffalo>
+                    <Dromedary>5</Dromedary>
+                    <Alpaca>3</Alpaca>
+                </carriers>
+                <guards>
+                    <ESCP_Pawnkind_Orsimer_Melee>8</ESCP_Pawnkind_Orsimer_Melee>
+                    <ESCP_Pawnkind_Orsimer_Ranged>5</ESCP_Pawnkind_Orsimer_Ranged>
+                    <ESCP_Pawnkind_Orsimer_Elite>1</ESCP_Pawnkind_Orsimer_Elite>
+                </guards>
+            </li>
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Orsimer_Citizen>8</ESCP_Pawnkind_Orsimer_Citizen>
+                    <ESCP_Pawnkind_Orsimer_Melee>10</ESCP_Pawnkind_Orsimer_Melee>
+                    <ESCP_Pawnkind_Orsimer_Ranged>8</ESCP_Pawnkind_Orsimer_Ranged>
+                    <ESCP_Pawnkind_Orsimer_Mage>4</ESCP_Pawnkind_Orsimer_Mage>
+                    <ESCP_Pawnkind_Orsimer_Elite>2</ESCP_Pawnkind_Orsimer_Elite>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+
+        <modExtensions Inherit="False">
+            <li Class="ESCP.Factions.FactionExtension_FlavorOverride">
+                <newLabel>Orsimer raiders</newLabel>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_PermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li MayRequire="Rick.ESCP.Orsimer">ESCP_Faction_Orsinium</li>
+                </hostileFactionDefs>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>
