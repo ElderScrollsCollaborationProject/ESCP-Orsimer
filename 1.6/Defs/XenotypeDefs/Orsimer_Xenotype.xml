@@ -15,6 +15,13 @@
             <li>Robust</li>
             <li>ESCP_Gene_Orsimer_Tusks</li>
         </genes>
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <modifiedExpectations>true</modifiedExpectations>
+                <expectationOffset>-1</expectationOffset>
+                <leatherDef>ESCP_LeatherOrsimer</leatherDef>
+            </li>
+        </modExtensions>
     </XenotypeDef>
 
 </Defs>

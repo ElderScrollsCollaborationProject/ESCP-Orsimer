@@ -159,6 +159,22 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Malak's Maw</li>
+                    <li>Cradlecrush</li>
+                    <li>Bloodtoil Valley</li>
+                    <li>Jathsogur</li>
+                    <li>Reman's Bluff</li>
+                    <li>Dra'bul</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>Tundra</li>
+                    <li>BorealForest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
         </modExtensions>
     </FactionDef>
 

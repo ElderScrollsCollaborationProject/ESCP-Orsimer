@@ -153,6 +153,32 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ESCP_Enlistment_Orsinium</li>
+                </enlistOptionsDefs>
+            </li>
+            <li Class="ESCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>ESCP_RankTrack_Orsinium</li>
+                </rankTracks>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Orsinium</li>
+                    <li>Morkul Stronghold</li>
+                    <li>Fharun Stronghold</li>
+                    <li>Stonetooth Fortress</li>
+                    <li>Murtag Stronghold</li>
+                    <li>Dushnikh Yal</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>BorealForest</li>
+                    <li>Tundra</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
         </modExtensions>
     </FactionDef>
 
