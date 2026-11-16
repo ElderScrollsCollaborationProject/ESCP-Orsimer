@@ -4,7 +4,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>ESCP_EchaterePelt</defName>
 		<label>echatere pelt</label>
-		<description>The thick pelt of echatere. Relatively good at temperature regulation in cold climates, and provides a slight boost to armour.</description>
+		<description>The thick pelt of echatere. Relatively good at temperature regulation in cold climates, and gives a little extra protection.</description>
 		<graphicData>
 			<color>(92,78,71)</color>
 		</graphicData>
