@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Mashed's Bloodmoon</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+                <li Class="PatchOperationConditional">
+                    <xpath>Defs/Mashed_Bloodmoon.LycanthropeBeastFormDef[defName="Mashed_Bloodmoon_Werewelwa"]/requirementWorkers</xpath>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>Defs/Mashed_Bloodmoon.LycanthropeBeastFormDef[defName="Mashed_Bloodmoon_Werewelwa"]</xpath>
+                        <value>
+                            <requirementWorkers/>
+                        </value>
+                    </nomatch>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Mashed_Bloodmoon.LycanthropeBeastFormDef[defName="Mashed_Bloodmoon_Werewelwa"]/requirementWorkers</xpath>
+                    <value>
+                        <li Class="Mashed_Bloodmoon.RequirementWorker_BeastHunt">
+                            <beastHuntDef>ESCP_BeastHunt_Welwa</beastHuntDef>
+                        </li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

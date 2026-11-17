@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <Mashed_Bloodmoon.LycanthropeBeastHuntDef MayRequire="SirMashedPotato.Bloodmoon">
+		<defName>ESCP_BeastHunt_Welwa</defName>
+		<label>beast hunt: Welwa</label>
+		<description>Consume the heart of 6 welwa.</description>
+		<extraTooltip>Completing this Beast Hunt unlocks the Werewelwa beast form.</extraTooltip>
+		<targetThingDef>ESCP_Welwa</targetThingDef>
+		<targetCount>6</targetCount>
+	</Mashed_Bloodmoon.LycanthropeBeastHuntDef>
+
+</Defs>
